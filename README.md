@@ -1,0 +1,1 @@
+# bludit-plugin-crop
