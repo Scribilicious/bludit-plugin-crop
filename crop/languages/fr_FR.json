@@ -1,0 +1,16 @@
+{
+    "plugin-data": {
+        "name": "Crop",
+        "description": "Offre la possibilité de recadrer les images, utile pour les modèles et optimiser la vitesse de la page."
+    },
+    "url-help": "Paramètres optionnels : [w{pixels}] largeur, [h{pixels}] hauteur, [q{1-100}] qualité et [s] netteté.<br>Par exemple : crop/w400/h200/{image}, crop/w600/h600/q50/{image} ou crop/s/{image}",
+    "clear-cache": "Effacer le cache",
+    "clear": "Effacer",
+    "caching": "Activer la mise en cache",
+    "quality": "Qualité",
+    "max-width": "Largeur maximale en pixels",
+    "max-height": "Hauteur maximale en pixels",
+    "default-width": "Largeur d'image par défaut en pixels",
+    "default-height": "Hauteur d'image par défaut en pixels",
+    "please-support-me": "Si vous aimez mon plugin, veuillez me soutenir en cliquant sur le bouton ci-dessous. Merci !"
+}

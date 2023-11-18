@@ -1,0 +1,16 @@
+{
+    "plugin-data": {
+        "name": "Crop",
+        "description": "Biedt de mogelijkheid om afbeeldingen bij te snijden, handig voor sjablonen en optimalisatie van de paginasnelheid."
+    },
+    "url-help": "Optionele parameters: [w{pixels}] breedte, [h{pixels}] hoogte, [q{1-100}] kwaliteit en [s] verscherpen.<br>Bijvoorbeeld: crop/w400/h200/{image}, crop/w600/h600/q50/{image} of crop/s/{image}",
+    "clear-cache": "Cache wissen",
+    "clear": "Wissen",
+    "caching": "Caching inschakelen",
+    "quality": "Kwaliteit",
+    "max-width": "Maximale breedte in pixels",
+    "max-height": "Maximale hoogte in pixels",
+    "default-width": "De standaardafbeeldingsbreedte in pixels",
+    "default-height": "De standaardafbeeldingshoogte in pixels",
+    "please-support-me": "Als je mijn plugin leuk vindt, steun me dan door op de onderstaande knop te klikken. Bedankt!"
+}

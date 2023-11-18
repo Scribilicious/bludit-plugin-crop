@@ -1,0 +1,16 @@
+{
+    "plugin-data": {
+        "name": "Crop",
+        "description": "Ofrece la opción de recortar imágenes, útil para plantillas y optimizar la velocidad de la página."
+    },
+    "url-help": "Parámetros opcionales: [w{píxeles}] ancho, [h{píxeles}] altura, [q{1-100}] calidad y [s] enfoque.<br>Por ejemplo: crop/w400/h200/{imagen}, crop/w600/h600/q50/{imagen} o crop/s/{imagen}",
+    "clear-cache": "Limpiar caché",
+    "clear": "Limpiar",
+    "caching": "Habilitar almacenamiento en caché",
+    "quality": "Calidad",
+    "max-width": "Ancho máximo en píxeles",
+    "max-height": "Altura máxima en píxeles",
+    "default-width": "Ancho de imagen predeterminado en píxeles",
+    "default-height": "Altura de imagen predeterminada en píxeles",
+    "please-support-me": "Si te gusta mi complemento, por favor, apóyame haciendo clic en el botón de abajo. ¡Gracias!"
+}

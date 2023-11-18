@@ -1,0 +1,16 @@
+{
+    "plugin-data": {
+        "name": "Crop",
+        "description": "Gives the option to crop images usefull for templating and optimize page speed."
+    },
+    "url-help": "Optional parameters: [w{pixels}] width, [h{pixels}] height, [q{1-100}] quality, and [s] sharpen.<br>For example: crop/w400/h200/{image}, crop/w600/h600/q50/{image} or crop/s/{image}",
+    "clear-cache": "Clear cache",
+    "clear": "Clear",
+    "caching": "Enable caching",
+    "quality": "Quality",
+    "max-width": "Maximal width in pixels",
+    "max-height": "Maximal height in pixels",
+    "default-width": "The default image width in pixels",
+    "default-height": "The default image height in pixels",
+    "please-support-me": "If you enjoy my plugin, please support me by clicking the button below. Thank you!"
+}
