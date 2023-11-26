@@ -1,16 +1,17 @@
 {
     "plugin-data": {
-        "name": "Crop",
-        "description": "テンプレート作成やページの高速化に役立つ、画像の切り抜きオプションを提供します。"
+        "name": "切り抜き",
+        "description": "テンプレート作成やページの高速化に役立つ画像の切り抜きオプションを提供します。"
     },
-    "url-help": "オプションパラメータ：[w{ピクセル}] 幅、[h{ピクセル}] 高さ、[q{1-100}] 品質、[s] シャープ化。<br>例：crop/w400/h200/{画像}、crop/w600/h600/q50/{画像}、またはcrop/s/{画像}",
-    "clear-cache": "キャッシュをクリア",
-    "clear": "クリア",
-    "caching": "キャッシュを有効にする",
-    "quality": "品質",
-    "max-width": "最大幅（ピクセル）",
-    "max-height": "最大高さ（ピクセル）",
-    "default-width": "デフォルトの画像幅（ピクセル）",
-    "default-height": "デフォルトの画像高さ（ピクセル）",
-    "please-support-me": "私のプラグインが気に入ったら、以下のボタンをクリックしてサポートしてください。ありがとうございます！"
+    "please-support-mrbot": "私のプラグインが気に入ったら、下のボタンをクリックしてサポートしてください。ありがとうございます！",
+    "crop-url-help": "オプションのパラメータ：[w{ピクセル}] 幅、[h{ピクセル}] 高さ、[q{1-100}] 品質、[s] シャープネス。<br>例：crop/w400/h200/{画像}、crop/w600/h600/q50/{画像}、またはcrop/s/{画像}",
+    "crop-clear-cache": "キャッシュをクリア",
+    "crop-caching": "キャッシュを有効にする",
+    "crop-enabled": "有効",
+    "crop-disabled": "無効",
+    "crop-quality": "品質",
+    "crop-max-width": "最大幅（ピクセル）",
+    "crop-max-height": "最大高さ（ピクセル）",
+    "crop-default-width": "デフォルトの画像幅（ピクセル）",
+    "crop-default-height": "デフォルトの画像高さ（ピクセル）"
 }

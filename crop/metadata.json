@@ -2,9 +2,9 @@
 	"author": "Mr.Bot",
 	"email": "",
 	"website": "https://plugins.bludit.com",
-	"version": "1.0.0",
-	"releaseDate": "2023-11-16",
+	"version": "1.0.1",
+	"releaseDate": "2023-11-26",
 	"license": "MIT",
-	"compatible": "1.0.0",
+	"compatible": "3.0.0",
 	"notes": ""
 }

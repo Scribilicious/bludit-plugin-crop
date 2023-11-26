@@ -1,15 +1,17 @@
 {
     "plugin-data": {
-        "name": "Crop",
-        "description": "Offre l'opzione di ritagliare le immagini, utile per i modelli e ottimizzare la velocità della pagina."
+        "name": "Ritaglia",
+        "description": "Offre l'opzione di ritagliare le immagini utili per la creazione di modelli e ottimizzare la velocità della pagina."
     },
-    "url-help": "Parametri opzionali: [w{pixel}] larghezza, [h{pixel}] altezza, [q{1-100}] qualità e [s] nitidezza.<br>Ad esempio: crop/w400/h200/{immagine}, crop/w600/h600/q50/{immagine} o crop/s/{immagine}",
-    "clear-cache": "Cancella cache",
-    "clear": "Cancella",
-    "caching": "Abilita caching",
-    "quality": "Qualità",
-    "max-width": "Larghezza massima in pixel",
-    "max-height": "Altezza massima in pixel",
-    "default-width": "Larghezza immagine predefinita in pixel",
-    "default-height": "Altezza immagine predefinita in pixel"
+    "please-support-mrbot": "Se ti piace il mio plugin, sostienimi cliccando il pulsante qui sotto. Grazie!",
+    "crop-url-help": "Parametri opzionali: [w{pixel}] larghezza, [h{pixel}] altezza, [q{1-100}] qualità e [s] nitidezza.<br>Ad esempio: crop/w400/h200/{immagine}, crop/w600/h600/q50/{immagine} o crop/s/{immagine}",
+    "crop-clear-cache": "Cancella cache",
+    "crop-caching": "Abilita caching",
+    "crop-enabled": "Abilitato",
+    "crop-disabled": "Disabilitato",
+    "crop-quality": "Qualità",
+    "crop-max-width": "Larghezza massima in pixel",
+    "crop-max-height": "Altezza massima in pixel",
+    "crop-default-width": "Larghezza immagine predefinita in pixel",
+    "crop-default-height": "Altezza immagine predefinita in pixel"
 }

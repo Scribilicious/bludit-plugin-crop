@@ -1,16 +1,17 @@
 {
     "plugin-data": {
-        "name": "Crop",
-        "description": "Şablonlar için kullanışlı olan ve sayfa hızını optimize etmek için resimleri kırpma seçeneği sunar."
+        "name": "Kırpma",
+        "description": "Şablon oluşturma ve sayfa hızını optimize etmek için resimleri kırpma seçeneği sunar."
     },
-    "url-help": "İsteğe bağlı parametreler: [w{piksel}] genişlik, [h{piksel}] yükseklik, [q{1-100}] kalite ve [s] keskinleştirme.<br>Örneğin: crop/w400/h200/{resim}, crop/w600/h600/q50/{resim} veya crop/s/{resim}",
-    "clear-cache": "Önbelleği temizle",
-    "clear": "Temizle",
-    "caching": "Önbelleğe alma etkinleştir",
-    "quality": "Kalite",
-    "max-width": "Maksimum genişlik (piksel cinsinden)",
-    "max-height": "Maksimum yükseklik (piksel cinsinden)",
-    "default-width": "Varsayılan resim genişliği (piksel cinsinden)",
-    "default-height": "Varsayılan resim yüksekliği (piksel cinsinden)",
-    "please-support-me": "Eğer eklentimi beğendiyseniz, lütfen aşağıdaki düğmeye tıklayarak beni destekleyin. Teşekkür ederim!"
+    "please-support-mrbot": "Eklentimi beğendiyseniz, lütfen aşağıdaki düğmeye tıklayarak beni destekleyin. Teşekkür ederim!",
+    "crop-url-help": "İsteğe bağlı parametreler: [w{piksel}] genişlik, [h{piksel}] yükseklik, [q{1-100}] kalite ve [s] keskinleştirme.<br>Örneğin: crop/w400/h200/{resim}, crop/w600/h600/q50/{resim} veya crop/s/{resim}",
+    "crop-clear-cache": "Önbelleği temizle",
+    "crop-caching": "Önbelleğe alma etkin",
+    "crop-enabled": "Etkin",
+    "crop-disabled": "Devre dışı",
+    "crop-quality": "Kalite",
+    "crop-max-width": "Maksimum genişlik (piksel)",
+    "crop-max-height": "Maksimum yükseklik (piksel)",
+    "crop-default-width": "Varsayılan resim genişliği (piksel)",
+    "crop-default-height": "Varsayılan resim yüksekliği (piksel)"
 }

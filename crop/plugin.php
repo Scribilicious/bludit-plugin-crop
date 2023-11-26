@@ -23,7 +23,7 @@ class pluginCrop extends Plugin {
     public function post()
     {
         // If needed clears the cache
-        if (intval($_POST['clear-cache'])) {
+        if (isset($_POST['clear-cache'])) {
             $cache_folder = sys_get_temp_dir() . '/crop';
             if (is_dir($cache_folder)) {
                 $files = glob($cache_folder . '/*');
@@ -62,51 +62,47 @@ class pluginCrop extends Plugin {
         $html = $this->payMe();
 
         $html .= '<div class="alert alert-primary" role="alert">';
-        $html .= $L->get('URL').': '.DOMAIN_BASE.'crop/{image}<br>';
-        $html .= $L->get('URL Help');
+        $html .= $L->get('Crop URL').': '.DOMAIN_BASE.'crop/{image}<br>';
+        $html .= $L->get('Crop URL Help');
         $html .= '</div>';
 
-        $html .= '<h2>'.$L->get('Settings').'</h2>';
+        $html .= '<h2>'.$L->get('Crop Settings').'</h2>';
 
         $html .= '<div>';
-        $html .= '<label>'.$L->get('Default width').'</label>';
+        $html .= '<label>'.$L->get('Crop Default width').'</label>';
         $html .= '<input name="default-width" type="text" value="'.$this->getValue('default-width').'">';
         $html .= '</div>';
 
         $html .= '<div>';
-        $html .= '<label>'.$L->get('Default height').'</label>';
+        $html .= '<label>'.$L->get('Crop Default height').'</label>';
         $html .= '<input name="default-height" type="text" value="'.$this->getValue('default-height').'">';
         $html .= '</div>';
 
         $html .= '<div>';
-        $html .= '<label>'.$L->get('Max width').'</label>';
+        $html .= '<label>'.$L->get('Crop Max width').'</label>';
         $html .= '<input name="max-width" type="text" value="'.$this->getValue('max-width').'">';
         $html .= '</div>';
 
         $html .= '<div>';
-        $html .= '<label>'.$L->get('Max height').'</label>';
+        $html .= '<label>'.$L->get('Crop Max height').'</label>';
         $html .= '<input name="max-height" type="text" value="'.$this->getValue('max-height').'">';
         $html .= '</div>';
 
         $html .= '<div>';
-        $html .= '<label>'.$L->get('Quality').'</label>';
+        $html .= '<label>'.$L->get('Crop Quality').'</label>';
         $html .= '<input name="quality" type="text" value="'.$this->getValue('quality').'">';
         $html .= '</div>';
 
         $html .= '<div>';
-        $html .= '<label>'.$L->get('Caching').'</label>';
+        $html .= '<label>'.$L->get('Crop Caching').'</label>';
         $html .= '<select name="caching">';
-        $html .= '<option value="true" ' . ($this->getValue('caching') === true ? 'selected' : '') . '>' . $L->get('Enabled') . '</option>';
-        $html .= '<option value="false" ' . ($this->getValue('caching') === false ? 'selected' : '') . '>' . $L->get('Disabled') . '</option>';
+        $html .= '<option value="true" ' . ($this->getValue('caching') === true ? 'selected' : '') . '>' . $L->get('Crop Enabled') . '</option>';
+        $html .= '<option value="false" ' . ($this->getValue('caching') === false ? 'selected' : '') . '>' . $L->get('Crop Disabled') . '</option>';
         $html .= '</select>';
         $html .= '</div>';
 
         $html .= '<div>';
-        $html .= '<label>'.$L->get('Clear cache').'</label>';
-        $html .= '<select name="clear-cache">';
-        $html .= '<option value="">-</option>';
-        $html .= '<option value="1">' . $L->get('Clear') . '</option>';
-        $html .= '</select>';
+        $html .= '<button name="clear-cache" class="btn btn-primary my-2" type="submit">'.$L->get('Crop Clear cache').'</button>';
         $html .= '</div>';
 
         $html .= $this->footer();
@@ -367,7 +363,7 @@ class pluginCrop extends Plugin {
         $icons = ['💸', '🥹', '☕️', '🍻', '👾', '🍕'];
         shuffle($icons);
         $html = '<div class="bg-light text-center border mt-3 p-3">';
-        $html .= '<p class="mb-2">'.$L->get('Please support me').'</p>';
+        $html .= '<p class="mb-2">' . $L->get('Please support Mr.Bot') . '</p>';
         $html .= '<a style="background: #ffd11b;box-shadow: 2px 2px 5px #ccc;padding: 0 10px;border-radius: 50%;width: 60px;display: block;text-align: center;margin: auto;height: 60px; font-size: 40px; line-height: 60px;" href="https://www.buymeacoffee.com/iambot" target="_blank" title="Buy me a coffee...">' . $icons[0] . '</a>';
         $html .= '</div><br>';
 

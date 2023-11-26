@@ -1,16 +1,17 @@
 {
     "plugin-data": {
-        "name": "Crop",
-        "description": "Bietet die Möglichkeit, Bilder zuzuschneiden, nützlich für Vorlagen und zur Optimierung der Seitengeschwindigkeit."
+        "name": "Zuschneiden",
+        "description": "Bietet die Möglichkeit, Bilder für die Vorlagenbearbeitung und Optimierung der Seitengeschwindigkeit zuzuschneiden."
     },
-    "url-help": "Optionale Parameter: [w{Pixel}] Breite, [h{Pixel}] Höhe, [q{1-100}] Qualität und [s] Schärfen.<br>Zum Beispiel: crop/w400/h200/{Bild}, crop/w600/h600/q50/{Bild} oder crop/s/{Bild}",
-    "clear-cache": "Cache leeren",
-    "clear": "Löschen",
-    "caching": "Caching aktivieren",
-    "quality": "Qualität",
-    "max-width": "Maximale Breite in Pixel",
-    "max-height": "Maximale Höhe in Pixel",
-    "default-width": "Standardbildbreite in Pixel",
-    "default-height": "Standardbildhöhe in Pixel",
-    "please-support-me": "Wenn Ihnen mein Plugin gefällt, unterstützen Sie mich bitte, indem Sie auf den unten stehenden Button klicken. Vielen Dank!"
+    "please-support-mrbot": "Wenn Ihnen mein Plugin gefällt, unterstützen Sie mich bitte, indem Sie auf den unten stehenden Button klicken. Vielen Dank!",
+    "crop-url-help": "Optionale Parameter: [w{Pixel}] Breite, [h{Pixel}] Höhe, [q{1-100}] Qualität und [s] Schärfen.<br>Zum Beispiel: crop/w400/h200/{Bild}, crop/w600/h600/q50/{Bild} oder crop/s/{Bild}",
+    "crop-clear-cache": "Cache leeren",
+    "crop-caching": "Caching aktivieren",
+    "crop-enabled": "Aktiviert",
+    "crop-disabled": "Deaktiviert",
+    "crop-quality": "Qualität",
+    "crop-max-width": "Maximale Breite in Pixel",
+    "crop-max-height": "Maximale Höhe in Pixel",
+    "crop-default-width": "Standardbildbreite in Pixel",
+    "crop-default-height": "Standardbildhöhe in Pixel"
 }
